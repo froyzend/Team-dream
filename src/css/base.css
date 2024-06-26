@@ -30,6 +30,11 @@ p {
 }
 
 
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 
 @media (min-width:375px) {
     .container {
