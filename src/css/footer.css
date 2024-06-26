@@ -85,6 +85,7 @@
 .line {
   width: 100%;
   margin: 24px 0;
+  background-color: rgba(251, 251, 251, 0.1);
 }
 
 .footer-anchors-list {
