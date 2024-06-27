@@ -1,4 +1,4 @@
-<section class="about">
+<section class="about" id="about">
     <div class="about-container">
         <h2 class="about-title">About Us</h2>
         <ul class="about-list">
@@ -11,13 +11,24 @@
                 </p>
             </li>
         </ul>
-        <button class="about-btn" src="/catalog.html" type="button">View catalog</button>
+        <button class="about-btn" src="/catalog.html" href="#catalog" type="button">View catalog</button>
     </div>
     <div class="about-picture">
-        <img 
+        <picture>
+            <source  srcset="/img/about/about-mobile.jpg 1x,
+            /img/about/about-mobile2x.jpg 2x" 
+            media="(max-width: 767px)"/>
+            <source srcset="/img/about/about-tablet.jpg 1x,
+            /img/about/about-tablet2x.jpg 2x"
+            media="(max-width: 1199px)"/>
+            <source srcset="/img/about/about-destop.jpg 1x,
+            /img/about/about-desctop2x.jpg 2x"
+            media="(min-width: 1200px)"/>
+            <img 
         srcset="/img/about/about-mobile.jpg 1x,
         /img/about/about-mobile2x.jpg 2x"
         src="/img/about/about-mobile.jpg"
          alt="black watch">
+        </picture>
     </div>
 </section>

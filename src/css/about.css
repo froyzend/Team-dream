@@ -7,7 +7,6 @@
 .about-container {
     border-radius: 30px;
 width: 335px;
-height: 446px;
 background: #f3f3f3;
 padding: 40px 20px;
 margin-bottom: 20px;
@@ -30,6 +29,7 @@ margin-bottom: 28px;
     margin-bottom: 40px;
 }
 .about-item {
+    width: 294px;
 }
 .about-text {
     font-family: "Gilroy", sans-serif;
@@ -38,7 +38,6 @@ font-size: 14px;
 line-height: 129%;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
-width: 294px;
 
 }
 .about-btn {
@@ -55,4 +54,33 @@ background: #3350e9;
 border: none;
 }
 .about-picture {
+}
+
+@media screen and (min-width: 768px) {
+    .about-container {
+        width: 704px;
+        padding: 80px 60px;
+        border-radius: 50px;
+        margin-bottom: 40px;
+    }
+
+    .about-title {
+        font-weight: 600;
+font-size: 48px;
+line-height: 92%;
+    }
+    
+    .about-item {
+      width: 584px;
+    }
+
+    .about-text {
+        font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+    }
+
+    .about-list {
+        margin-bottom: 60px;
+    }
 }
