@@ -1,4 +1,4 @@
-.about {
+.about-section {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,12 +13,7 @@ margin-bottom: 20px;
 
 }
 .about-title {
-    font-family: "Gilroy", sans-serif;
-font-weight: 600;
-font-size: 32px;
-line-height: 1.0;
-letter-spacing: -0.02em;
-color: #0c0c0c;
+    color: #0c0c0c;
 margin-bottom: 28px;
 
 }
@@ -30,15 +25,6 @@ margin-bottom: 28px;
 }
 .about-item {
     width: 294px;
-}
-.about-text {
-    font-family: "Gilroy", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-letter-spacing: -0.02em;
-color: rgba(12, 12, 12, 0.7);
-
 }
 .about-btn {
     font-family: "Gilroy", sans-serif;
@@ -86,7 +72,7 @@ line-height: 1.25;
 
 @media screen and (min-width: 1200px) {
      
-    .about {
+    .about-section {
         flex-direction: row;
         align-items: center;
         justify-content: center;
