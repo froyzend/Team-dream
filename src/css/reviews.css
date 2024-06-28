@@ -7,10 +7,6 @@
     }
 
     .reviews-title {
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 1;
-        letter-spacing: -0.02em;
         color: #0c0c0c;
         margin-bottom: 24px;
     }
@@ -43,11 +39,6 @@
     }
 
     .content-title {
-        font-family: "Gilroy", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
         text-align: center;
         color: #0c0c0c;
         margin-bottom: 8px;
@@ -55,11 +46,6 @@
     }
 
     .content-text {
-        font-family: "Gilroy", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.28571;
-        letter-spacing: -0.02em;
         text-align: center;
         color: rgba(12, 12, 12, 0.4);
     }
@@ -74,11 +60,6 @@
     }
 
     .reviews-title {
-        font-family: "Gilroy", sans-serif;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 0.91667;
-        letter-spacing: -0.02em;
         color: #0c0c0c;
         margin-bottom: 40px;
     }
@@ -116,11 +97,6 @@
     }
 
     .content-title {
-        font-family: "Gilroy", sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 1.1;
-        letter-spacing: -0.02em;
         text-align: center;
         color: #0c0c0c;
         margin-bottom: 8px;
@@ -128,11 +104,6 @@
     }
 
     .content-text {
-        font-family: "Gilroy", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
         text-align: center;
         color: rgba(12, 12, 12, 0.4);
     }
@@ -150,10 +121,6 @@
     }
 
     .reviews-title {
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 0.92;
-        letter-spacing: -0.02em;
         color: #0c0c0c;
         margin-bottom: 40px;
     }
@@ -197,10 +164,6 @@
     }
 
     .content-title {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 1.1;
-        letter-spacing: -0.02em;
         text-align: center;
         color: #0c0c0c;
         margin-bottom: 8px;
@@ -209,10 +172,6 @@
     }
 
     .content-text {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
         text-align: center;
         color: rgba(12, 12, 12, 0.4);
     }
