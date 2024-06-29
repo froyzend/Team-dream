@@ -55,24 +55,33 @@ screen and (min-resolution: 2dppx) {
     color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisement-button {
-    display: block;
-    font-family: "Gilroy", sans-serif;
+
+.advertisement-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
-    text-align: center;
-    color: #fbfbfb;
-    background: transparent;
+
+    /* padding: 15px 43px; */
+    
+    /* text-align: center;
+    line-height: 48px; */
+    
     width: 160px;
     height: 48px;
-    
-    border: 1px solid rgba(251, 251, 251, 0.15);
-    border-radius: 16px;
-    
+
+    background-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.advertisement-button:hover {
+.advertisement-link:hover {
     background: #fbfbfb;
     color: #0c0c0c;
 }
