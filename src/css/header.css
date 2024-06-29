@@ -149,6 +149,16 @@ button {
     stroke: #0c0c0c;
 }
 
+.line-header-color {
+    stroke-width: 1px;
+    stroke: rgba(12, 12, 12, 0.1);
+}
+
+.line-header {
+    width: 100%;
+}
+
+
 /* ------------MENU-HEADER------------------ */
 
 .menu-header {
@@ -406,3 +416,4 @@ button {
     width: 20px;
     height: 20px;
 }}
+
