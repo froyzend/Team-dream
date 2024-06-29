@@ -3,6 +3,9 @@
     <symbol id="icon-icon-line" viewBox="0 0 18176 32">
       <path stroke-width="16" d="M0 16h18176"/>
     </symbol>
+    <symbol id="icon-line-top" viewBox="0 0 20480 32">
+      <path stroke-width="16" d="M0 16h20480"/>
+    </symbol>
     <symbol id="icon-menu" viewBox="0 0 64 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="5.714" d="M2.857 4.667h58.286M2.857 27.333h58.286"/>
     </symbol>
