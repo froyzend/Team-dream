@@ -3,6 +3,9 @@
     <symbol id="icon-icon-line" viewBox="0 0 18176 32">
       <path stroke-width="16" d="M0 16h18176"/>
     </symbol>
+    <symbol id="icon-line-top" viewBox="0 0 20480 32">
+      <path stroke-width="16" d="M0 16h20480"/>
+    </symbol>
     <symbol id="icon-menu" viewBox="0 0 64 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="5.714" d="M2.857 4.667h58.286M2.857 27.333h58.286"/>
     </symbol>
@@ -19,8 +22,5 @@
     <symbol id="icon-facebook" viewBox="0 0 34 32">
       <path d="M20.32 4.64h.96v3.6h-1.2c-.48 0-.96 0-1.2.24s-.24.48-.24 1.04v1.28h2.64v3.04h-2.64v13.2h-4.08V13.76H12.4v-3.04h2.16V9.68c0-1.76.24-3.04.72-3.6.72-1.04 2.16-1.52 4.32-1.52.24.08.48.08.72.08z"/>
     </symbol>
-    <symbol id="icon-line-top" viewBox="0 0 20480 32">
-      <path stroke-width="16" d="M0 16h20480"/>
-    </symbol>
-  </defs>
+    </defs>
 </svg>

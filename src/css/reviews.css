@@ -1,11 +1,5 @@
 @media screen and (max-width: 767px) {
 
-    .reviews-conteiner {
-        padding: 0px 20px;
-        min-width: 375px;
-
-    }
-
     .reviews-title {
         color: #0c0c0c;
         margin-bottom: 24px;
@@ -53,11 +47,8 @@
 
 
 @media screen and (min-width: 768px) {
-    .reviews-conteiner {
-        padding: 0px 32px;
-        max-width: 704px;
-        height: 356px;
-    }
+
+
 
     .reviews-title {
         color: #0c0c0c;
@@ -114,12 +105,6 @@
 @media screen and (min-width: 1280px) {
 
 
-    .reviews-conteiner {
-        padding: 0px 65px;
-        min-width: 1280px;
-        height: 356px;
-    }
-
     .reviews-title {
         color: #0c0c0c;
         margin-bottom: 40px;
@@ -155,7 +140,7 @@
 
 
     .foto {
-        margin: 0 121px;
+        margin: 0 101px;
         border-radius: 100%;
         stroke-width: 2px;
         stroke: #fbfbfb;

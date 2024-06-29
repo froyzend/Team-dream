@@ -1,25 +1,15 @@
 
-.container-catalog {
-  max-width: 320px;
-  height: 1664px;
- 
-}
-
-.title {
+.title-catalog {
   display: block;
   padding-left: 20px;
   margin-right: auto;
   margin-bottom: 24px;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
+  
 }
 
 .list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
   margin-bottom: 40px;
  
@@ -30,8 +20,6 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 100%;
-  text-align: center;
-
   
 }
 
@@ -40,27 +28,25 @@
 }
 
 .text-catalog {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
+  text-align: start;
   gap: 8px;
+  padding-left: 20px;
+  padding-right: auto;
   padding-top: 10px;
   padding-bottom: 24px;
-
 }
 
-.text {
+.text-name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
+
 }
 
 .price-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 0.09;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
   margin-right: auto;
@@ -77,12 +63,11 @@
   color: #fbfbfb;
   font-weight: 500;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 0.09;
   padding: 15px 44px;
-  cursor: pointer;
   border: none;
   text-align: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-catalog:hover,
@@ -91,25 +76,15 @@
 }
 
 @media screen and (min-width: 768px) {
-  #catalog {
-    width: 704px;
-    height: 1390px;
-  }
-
-  .container-catalog {
-    min-width: 768px;
-    padding-left: 34px;
-    padding-right: 34px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .title {
+  
+  .title-catalog {
     font-size: 48px;
     line-height: 92%;
   }
 
   .list {
+    flex-wrap: wrap;
+    flex-direction: row;
     gap: 32px 16px;
   }
 
@@ -120,11 +95,12 @@
 
   .clock {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 
-    .text {
+    .text-name {
       font-size: 20px;
       line-height: 100%;
    }
@@ -135,13 +111,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+ 
   .list {
     gap: 32px 23px;
   }
 
   .name-list {
     width: calc((100% - 48px) / 3);
-    
+   
   }
+  
 }
-
