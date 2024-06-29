@@ -1,8 +1,8 @@
 .first-text-h{
   font-weight: 600;
   font-size: 40px;
-  line-height: 95%;
   letter-spacing: -0.02em;
+  line-height: 0.95;
   color: #0C0C0C;
   font-family: "Gilroy", sans-serif;
   margin: 0;
@@ -11,13 +11,8 @@
   color: #3350E9;
 }
 .second-text-h{
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 129%;
-  letter-spacing: -0.02em;
   width: 335px;
   font-family: "Gilroy", sans-serif;
-  color: rgba(12, 12, 12, 0.7);
   margin-top: 20px;
   margin-bottom: 0;
 }
@@ -69,10 +64,16 @@
 img{
   margin: 0 auto;
 }
+.hero{
+  padding-top: 60px;
+}
 @media (min-width:768px) {
-  .hero {
+  .hero{
+    padding-top: 80px;
+  }
+  .hero-container{
     margin: 0 auto;
-    min-width: 768pxgi;
+    min-width: 768px;
   }
   .title-hero{
     min-width: 704px;
@@ -127,6 +128,12 @@ img{
   }
 }
 @media (min-width:1280px) {
+  .hero{
+    padding-top: 80px;
+  }
+  .hero-container{
+    padding-top: 0;
+  }
   .first-text-h{
     font-weight: 600;
     font-size: 72px;
