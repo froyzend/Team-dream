@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.subtitle {
+.subject {
     margin-bottom: 24px;
     color: #0c0c0c;
 }
@@ -16,6 +16,10 @@
 }
 .note {
     margin-bottom: 28px;
+}
+.label-form {
+    display: block;
+    display: none;
 }
 
 .input-form {
