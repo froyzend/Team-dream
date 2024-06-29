@@ -1,0 +1,72 @@
+<section>
+  <div class="container container-contact">
+    <h2 class="subtitle">Contact Us</h2>
+    <div class="container-form">
+      <form class="class-form">
+        <p class="note">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <input
+          type="text"
+          class="input-form"
+          name="username"
+          placeholder="Name"
+        />
+        <input
+          type="email"
+          class="input-form"
+          name="email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          placeholder="Email"
+        />
+        <input
+          type="tel"
+          class="input-form"
+          name="tel"
+          pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+          placeholder="+380"
+        />
+        <textarea
+          name="comment"
+          class="textarea-form"
+          placeholder="Comment"
+        ></textarea>
+        <button type="submit" class="btn-form">Send</button>
+      </form>
+      <picture>
+        <source
+          type="/image/jpg"
+          srcset="
+            /img/contact/contact-desctop.jpg  1x,
+            /img/contact/contact-destop2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          type="/image/jpg"
+          srcset="
+            /img/contact/contact-tablet.jpg   1x,
+            /img/contact/contact-tablet2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          type="/image/jpg"
+          srcset="
+            /img/contact/contact-mobile.jpg   1x,
+            /img/contact/contact-mobile2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="/img/contact/contact-desctop.jpg"
+          alt="clock"
+          class="img-form"
+          width="530"
+          height="556"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
