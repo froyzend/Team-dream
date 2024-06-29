@@ -110,33 +110,6 @@ button {
     border: none; 
 }
 
-.navigation-span {
-    position: relative;
-    top: -4px;
-    right: 2px;
-    
-}
-
-.navigation-span::after,
-.navigation-span::before {
-    width: 28px;
-    height: 2px;
-    background-color: #0c0c0c;
-    border-radius: 4px;
-    
-}
-
-.navigation-span::after,
-.navigation-span::before{
-    content: "";
-    position: absolute;
-    
-}
-
-.navigation-span::after {
-    top: 8px;
-}
-
 .header {
     display: block;
     background: #fff; 
@@ -218,6 +191,11 @@ button {
     border: none;
 }
 
+.close-icon {
+    stroke-width: 2.50px;
+    stroke: #fbfbfb;
+}
+
 .menu-header-container {
     margin-top: 186px;
     display: flex;
@@ -294,14 +272,13 @@ button {
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
     padding: 8px;
-    fill: #fbfbfb;
     opacity: .8;
     transition: opacity 50ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 50ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-color-menu{
-    
+    fill: #fbfbfb;
 }
 
 .social-icon-menu:hover,
@@ -321,7 +298,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-    .logo-link {
+.logo-link {
     font-size: 20px;
     }
 }
@@ -418,7 +395,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-.social-icon-menu {
+.social-icon-item-menu-header {
     width: 36px;
     height: 36px;
 }
