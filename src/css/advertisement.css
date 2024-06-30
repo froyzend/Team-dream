@@ -1,22 +1,22 @@
-.section-advertisement {
-    background-image: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/img/advertisement/adv-mobile.jpg);
-    background-color: #0c0c0c;
+.wrap {
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(/img/advertisement/adv-mobile.jpg);
     
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: #0c0c0c;;
     
-   
     border-radius: 30px;
-    /* padding: 60px 26px; */
+
+    padding: 60px 28px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
-    .section-advertisement {
+    .wrap {
     background-image:
         linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url(/img/advertisement/adv-mobile2x.jpg);}
@@ -36,19 +36,14 @@ screen and (min-resolution: 2dppx) {
     overflow: hidden;
 }
 
-.advertisement-container {
-    
-}
-
 .advertisement-title {
-    /* font-weight: 600;
+    font-weight: 600;
     font-size: 32px;
     line-height: 1;
-    letter-spacing: -0.02em; */
+    letter-spacing: -0.02em;
     
     color: #fbfbfb;
     margin-bottom: 28px;    
-<<<<<<< Updated upstream
     max-width: 279px;  
 }
 
@@ -93,17 +88,17 @@ TABLET
 
 
 @media screen and (min-width: 768px) {
-    .section-advertisement {
+    .wrap {
         background-image:
             linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
             url(/img/advertisement/adv-tablet.jpg);
-        /* padding: 80px 64px; */
+        padding: 80px 64px;
     }
     
         @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-            .section-advertisement {
+            .wrap {
                 background-image:
                     linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
                     url(/img/advertisement/adv-tablet2x.jpg);
@@ -115,24 +110,24 @@ TABLET
         margin-bottom: 32px;
         
         
-        /* font-weight: 600;
+        font-weight: 600;
         font-size: 48px;
-        line-height: 0.92;        */
+        line-height: 0.92;       
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .section-advertisement {
+    .wrap {
         background-image:
             linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
             url(/img/advertisement/adv-desctop.jpg);
-        /* padding: 83px 65px; */
+        padding: 83px 65px;
     }
     
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-        .section-advertisement {
+        .wrap {
             background-image:
             linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
             url(/img/advertisement/adv-desctop2x.jpg);
@@ -141,10 +136,9 @@ TABLET
     .advertisement-title {
         max-width: 690px;
 
-        /* letter-spacing: -0.02em; */
-            
+        letter-spacing: -0.02em;  
     }
-    .advertisement-container {
+    .wrap {
         display: flex;
         gap:140px;
     }
