@@ -138,6 +138,7 @@ button {
         width: 200px;
         height: 100%;
         overflow: auto;
+        background-color:#0c0c0c;
         background-image: linear-gradient(rgba(12, 12, 12, .92), rgba(12, 12, 12, .1)), url(/img/menu/menu-mobile.jpg);
         opacity: 0;
         visibility: hidden;
@@ -340,14 +341,30 @@ button {
     }
 }
 
-@media screen and (min-width: 768px) { 
-.menu-header {
-    background-image: linear-gradient(rgba(12, 12, 12, .92), rgba(12, 12, 12, .92)),
-        url(../img/menu/menu-mobile2x.jpg);
+@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .menu-header {
+    background-image: linear-gradient(rgba(12, 12, 12, .92), rgba(12, 12, 12, .1)), url(/img/menu/menu-mobile.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu-header{
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     width: 330px;
-    padding: 26px 32px 50px;    
+    padding: 26px 32px 50px;   
+    }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx){ 
+.menu-header {
+    background-image: linear-gradient(rgba(12, 12, 12, .92), rgba(12, 12, 12, .92)),
+        url(/img/menu/menu-mobile2x.jpg);
 }
 }
 
