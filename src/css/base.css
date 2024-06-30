@@ -6,7 +6,7 @@ body {
 
 
 .container {
-    max-width: 100%;
+    max-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
@@ -45,14 +45,13 @@ body {
 
 @media (min-width: 375px) and (max-width: 767px) {
     .container {
-        min-width: 375px;
+        max-width: 375px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
     .container {
-
-        min-width: 768px;
+        max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
     }
@@ -74,7 +73,7 @@ body {
 
 @media (min-width:1280px) {
     .container {
-        min-width: 1280px;
+        max-width: 1280px;
         padding: 0px 65px
     }
 }
