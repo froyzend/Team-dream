@@ -64,6 +64,10 @@
 img{
   margin: 0 auto;
 }
+.watch{
+  width: 335px;
+  height: 366px;
+}
 .hero{
   padding-top: 60px;
 }
