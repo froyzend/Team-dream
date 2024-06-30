@@ -4,8 +4,8 @@
     flex-direction: column;
 }
 
-
 .about-container {
+    background-color: #f3f3f3;
     border-radius: 30px;
 width: 335px;
 background: #f3f3f3;
@@ -43,7 +43,7 @@ padding: 15px 38px;
 
 @media screen and (min-width: 768px) {
     .about-container {
-        width: 704px;
+        width: 100%;
         padding: 80px 60px;
         border-radius: 50px;
         margin-bottom: 40px;
@@ -71,10 +71,7 @@ line-height: 1.25;
 }
 
 
-@media screen and (min-width: 1200px) {
-    .about {
-        flex-direction: row;
-    }
+@media screen and (min-width: 1280px) {
      
     .about-section {
         flex-direction: row;
@@ -84,7 +81,7 @@ line-height: 1.25;
 
     .about-container {
         border-radius: 50px;
-        width: 580px;
+        width: 60%;
         margin-right: 40px;
     }
 
@@ -100,10 +97,9 @@ line-height: 1.25;
     .desktop-container {
         display: flex;
         flex-direction: row;
-
     }
 
-
+    
 
    
 }
