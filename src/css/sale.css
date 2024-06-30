@@ -4,11 +4,19 @@ body {
   
   .container-sale {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-clock {
+    width: 89.84375%;
+    display: flex;
+    justify-content: space-between;
     box-sizing: content-box;
   }
   
-  .container-sale .title {
+  .title {
+    width: 89.84375%;
     margin-bottom: 40px;
     padding: 0;
     font-size: 48px;
@@ -18,7 +26,8 @@ body {
   .container-sale .item {
     display: flex;
     flex-direction: row;
-    width: 10.3125%;
+    justify-content: center;
+    width: 11.47826086956522%;
   }
 
   .container-sale .item .img-sale {
@@ -27,21 +36,23 @@ body {
     border-radius: 10px;
     background: #F3F3F3;
   }
-
-  .container-sale .item-column {
-    margin-right: 10px;
+  .item-row>img{
+    padding: 16px 18px;
   }
   
-  .container-sale .item-column .img-sale {
-    margin-bottom: 10px;
+  .item-column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+
 
   .container-sale .item-watch {
     border: 1px solid #ccc;
     border-radius: 50px;
     background: #F3F3F3;
-    width: 33.4375%;
-    height: 86.91588785%;
+    width: 37.21739130434783%;
   }
 
   .container-sale .product {
@@ -72,7 +83,7 @@ body {
       }
       
       .container-sale .product-info {
-        width: 41.40625%;
+        width: 46.08695652173913%;
         background: #3350E9;
         border-radius: 50px;
       }
@@ -95,6 +106,10 @@ body {
         margin-bottom: 20px;
       }
       
+      .price{
+        display: flex;
+        align-items: center;
+      }
       .container-sale .price {
         font-size: 24px;
         margin-bottom: 20px;
@@ -110,6 +125,7 @@ body {
       }
 
       .container-sale .price-alredy {
+        margin-left: 9px;
         color:#FBFBFB80;
         font-size: 12px;
         text-decoration-line: line-through;
@@ -117,22 +133,31 @@ body {
       }
       
       .container-sale .product-description {
-        font-size: 14px;
-        line-height: 1.5;
+        line-height: 20px;
         margin-bottom: 20px;
         color: #FBFBFBB2;
         font-family: Gilroy;
         font-size: 16px;
+        letter-spacing: -0.02em;
       }
       
       .container-sale .buttons {
         display: flex;
         flex-wrap: wrap;
       }
+      .buttons>button:nth-child(1){
+        width: 36.25%;
+      }
+      .buttons>button:nth-child(2){
+        width: 34.75%;
+      }
+      .buttons>button:nth-child(3){
+        width: 17.5%;
+      }
       
       .container-sale .buttons button {
         margin: 0 10px 10px 0;
-        padding: 10px 20px;
+        padding: 8px 12px;
         font-size: 14px;
         border: none;
         border-radius: 4px;
