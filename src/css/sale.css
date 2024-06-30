@@ -41,6 +41,7 @@ body {
     border-radius: 50px;
     background: #F3F3F3;
     width: 33.4375%;
+    height: 86.91588785%;
   }
 
   .container-sale .product {
@@ -67,8 +68,7 @@ body {
 
       .img-watch {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 80px 50px;
       }
       
       .container-sale .product-info {
