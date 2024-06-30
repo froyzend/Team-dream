@@ -1,0 +1,170 @@
+body {
+    font-family: Gilroy;
+  }
+  
+  .container-sale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-clock {
+    width: 89.84375%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+  }
+  
+  .title {
+    width: 89.84375%;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 48px;
+    font-family: Gilroy;
+  }
+
+  .container-sale .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 11.47826086956522%;
+  }
+
+  .container-sale .item .img-sale {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #F3F3F3;
+  }
+  .item-row>img{
+    padding: 16px 18px;
+  }
+  
+  .item-column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  .container-sale .item-watch {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background: #F3F3F3;
+    width: 37.21739130434783%;
+  }
+
+  .container-sale .product {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .container-sale .product-image {
+        width: 40%;
+        margin-right: 20px;
+      }
+      
+      .container-sale .product-image .img-sale {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .img-watch {
+        display: block;
+        margin: 80px 50px;
+      }
+      
+      .container-sale .product-info {
+        width: 46.08695652173913%;
+        background: #3350E9;
+        border-radius: 50px;
+      }
+      
+      .container-sale .info-center {
+        padding: 60px;
+      }
+
+      .container-sale .product-info h1 {
+        margin-bottom: 10px;
+        color: #FBFBFB;
+        font-family: Gilroy;
+        font-size: 32px;
+      }
+      
+      .container-sale .product-tag {
+        font-family: Gilroy;
+        font-size: 14px;
+        color:#FBFBFB80;
+        margin-bottom: 20px;
+      }
+      
+      .price{
+        display: flex;
+        align-items: center;
+      }
+      .container-sale .price {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: Gilroy;
+      }
+      
+      .container-sale .price-now {
+        background: #FBFBFB1A;
+        padding: 8px 12px;
+        border-radius: 8px;
+        color: #FBFBFB;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 600;
+      }
+
+      .container-sale .price-alredy {
+        margin-left: 9px;
+        color:#FBFBFB80;
+        font-size: 12px;
+        text-decoration-line: line-through;
+        text-decoration-color: #FBFBFB80;
+      }
+      
+      .container-sale .product-description {
+        line-height: 20px;
+        margin-bottom: 20px;
+        color: #FBFBFBB2;
+        font-family: Gilroy;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+      }
+      
+      .container-sale .buttons {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .buttons>button:nth-child(1){
+        width: 36.25%;
+      }
+      .buttons>button:nth-child(2){
+        width: 34.75%;
+      }
+      .buttons>button:nth-child(3){
+        width: 17.5%;
+      }
+      
+      .container-sale .buttons button {
+        margin: 0 10px 10px 0;
+        padding: 8px 12px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        background-color: #3350E9;
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid #FBFBFB33;
+      }
