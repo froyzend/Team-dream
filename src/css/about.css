@@ -4,6 +4,7 @@
     flex-direction: column;
 }
 
+
 .about-container {
     border-radius: 30px;
 width: 335px;
@@ -26,8 +27,7 @@ margin-bottom: 28px;
 .about-item {
     width: 294px;
 }
-.about-btn {
-    font-family: "Gilroy", sans-serif;
+.about-btn {    
 font-weight: 500;
 font-size: 14px;
 line-height: 129%;
@@ -38,6 +38,7 @@ width: 160px;
 height: 48px;
 background: #3350e9;
 border: none;
+padding: 15px 38px;
 }
 
 @media screen and (min-width: 768px) {
@@ -101,6 +102,8 @@ line-height: 1.25;
         flex-direction: row;
 
     }
+
+
 
    
 }
