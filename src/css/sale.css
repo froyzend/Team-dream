@@ -34,6 +34,8 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+  width: 335px;
+  height: 385px;
 }
 
 /* Центрирование информации о продукте */
@@ -141,6 +143,8 @@
 
   .item-watch {
     padding: 80px 112px;
+    width: 552px;
+    height: 558px;
   }
 
   .product-info {
@@ -170,3 +174,31 @@
 }
 
 /************************DESCTOP**************************************************/
+@media screen and (min-width: 1280px) {
+
+  .container-sale {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .item-watch {
+    width: 428px;
+    height: 558px;
+  }
+
+  .product-info {
+    border-radius: 50px;
+    width: 530px;
+    height: 558px;
+    padding: 60px;
+  }
+
+
+
+
+  .buttons {
+    width: 398px;
+    height: 76px;
+  }
+}
