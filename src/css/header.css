@@ -147,7 +147,6 @@ button {
         display: flex;
         flex-direction: column;
         padding: 20px 20px 40px;
-            
 }
 
 .is-open {
@@ -170,6 +169,7 @@ button {
     cursor: pointer;
     border: none;
 }
+
 
 .close-icon {
     stroke-width: 2.50px;
