@@ -65,6 +65,11 @@
   white-space: nowrap;
 }
 
+.scroll-hero:hover,
+.scroll-hero:focus {
+  color: #3350E9;
+}
+
 .pictures-hero {
   position: relative;
   overflow: hidden;
