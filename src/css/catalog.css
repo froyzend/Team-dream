@@ -18,7 +18,7 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 100%;
-  padding: 24px 28px;
+ 
 }
 
 .clock {
@@ -26,12 +26,19 @@
 }
 
 .text-catalog {
-  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  padding-left: 28px;
+  padding-top: 10px;
+  padding-right: 28px;
+ padding-bottom: 24px;
 }
 
-.text-name {
-  margin-bottom: 8px;
-  color: #0c0c0c;
+.text-name{
+  
+  color :#0c0c0c;
 }
 
 .price-text {
@@ -81,30 +88,31 @@
   }
 
   .text-name-ov-g {
-    width: 93%;
+    gap: 8px;
+    width: 87%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: 10px;
-    margin-bottom: 8px;
+
+  
+   
 
   }
 
   .text-name-ov {
-    width: 72%;
+    width: 86%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: 10px;
-    margin-bottom: 8px;
+
+ 
 
   }
 
   .clock {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+  
   }
 
   .button-catalog {
@@ -122,19 +130,19 @@
     width: calc((100% - 48px) / 3);
 
   }
-
-  .text-name-ov-g {
-    width: 97%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .text-name-ov {
-    width: 80%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
+    .text-name-ov-g {
+      width: 93%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
+    .text-name-ov {
+      width: 93%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
 }
+
