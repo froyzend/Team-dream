@@ -196,6 +196,10 @@
     height: 558px;
   }
 
+  .container-clock {
+    margin-bottom: 0;
+  }
+
   .item-watch {
     padding: 50px;
   }
