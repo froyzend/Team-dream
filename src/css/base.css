@@ -39,7 +39,8 @@ body {
 
 .total {
     padding-top: 60px;
-    padding-bottom: 60px;
+    /*
+    padding-bottom: 60px;*/
 }
 
 
@@ -58,7 +59,7 @@ body {
 
     .total {
         padding-top: 80px;
-        padding-bottom: 80px;
+
     }
 
     .subject {
@@ -75,5 +76,10 @@ body {
     .container {
         max-width: 1280px;
         padding: 0px 65px
+    }
+
+    .total {
+        padding-top: 100px;
+
     }
 }
