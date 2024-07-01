@@ -130,23 +130,37 @@ button {
 
 /* ------------MENU-HEADER------------------ */
 
+.menu-header-open{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    overflow: auto;
+    background-color:#0c0c0c;
+    background-image: linear-gradient(rgba(12, 12, 12, .92), rgba(12, 12, 12, .1)), url(/img/menu/menu-mobile.jpg);
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-bottom: 40px;
+        
+        
+}
+
 .menu-header {
     position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 999;
-        width: 200px;
-        height: 100%;
-        overflow: auto;
-        background-color:#0c0c0c;
-        background-image: linear-gradient(rgba(12, 12, 12, .92), rgba(12, 12, 12, .1)), url(/img/menu/menu-mobile.jpg);
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transition: opacity .25s cubic-bezier(.4, 0, .2, 1), visibility .25s cubic-bezier(.4, 0, .2, 1);
-        display: flex;
-        flex-direction: column;
-        padding: 20px 20px 40px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    background-color: transparent;
+    pointer-events: none;
+    transition: opacity .25s cubic-bezier(.4, 0, .2, 1), visibility .25s cubic-bezier(.4, 0, .2, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .is-open {
@@ -176,17 +190,14 @@ button {
     stroke: #fbfbfb;
 }
 
-.menu-header-container {
-    margin-top: 186px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-}
-
 .menu-header-list {
     display: flex;
     flex-direction: column;
-    gap: 24px;   
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .menu-header-link {
@@ -230,8 +241,7 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 10px;
-    margin-top: auto;   
+    gap: 10px; 
     
 }
 
@@ -337,26 +347,27 @@ button {
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-        
     }
 }
 
 @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
-    .menu-header {
+    .menu-header-open {
     background-image: linear-gradient(rgba(12, 12, 12, .92), rgba(12, 12, 12, .1)), url(/img/menu/menu-mobile.jpg);
     }
 }
 
 @media screen and (min-width: 768px) {
-    .menu-header{
+    .menu-header-open{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 330px;
-    padding: 26px 32px 50px;   
-    }
+    padding-left: 101px;
+    padding-right: 101px;
+    padding-bottom: 50px;
+}
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
