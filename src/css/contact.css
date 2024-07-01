@@ -20,13 +20,8 @@
     margin-bottom: 24px;
 }
 
-.note {
+.note-p {
     margin-bottom: 28px;
-}
-
-.label-form {
-    display: block;
-    display: none;
 }
 
 
@@ -55,6 +50,7 @@ input::placeholder {
     line-height: 1.28571;
     color: #0c0c0c;
 }
+
 
 .textarea-form {
     resize: none;
