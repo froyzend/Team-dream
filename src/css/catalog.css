@@ -1,10 +1,9 @@
-
 .title-catalog {
   display: block;
   padding-left: 20px;
   margin-right: auto;
   margin-bottom: 24px;
-  
+
 }
 
 .list {
@@ -27,6 +26,7 @@
 }
 
 .text-catalog {
+
   display: flex;
   flex-direction: column;
   gap:8px;
@@ -60,7 +60,7 @@
   padding: 15px 44px;
   border: none;
   text-align: center;
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-catalog:hover,
@@ -69,7 +69,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+
   .title-catalog {
     font-size: 48px;
     line-height: 92%;
@@ -79,11 +79,12 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 32px 16px;
+    margin-bottom: 0;
   }
 
   .name-list {
-     width: calc((100% - 16px) / 2);
-     
+    width: calc((100% - 16px) / 2);
+
   }
 
   .text-name-ov-g {
@@ -92,16 +93,20 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+
   
    
+
   }
-   
+
   .text-name-ov {
     width: 86%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+
  
+
   }
 
   .clock {
@@ -116,14 +121,14 @@
 }
 
 @media screen and (min-width: 1280px) {
- 
+
   .list {
     gap: 32px 23px;
   }
 
   .name-list {
     width: calc((100% - 48px) / 3);
-   
+
   }
     .text-name-ov-g {
       width: 93%;
@@ -140,3 +145,4 @@
     }
   
 }
+

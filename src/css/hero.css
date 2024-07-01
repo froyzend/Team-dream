@@ -1,4 +1,4 @@
-.first-text-h{
+.first-text-h {
   font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.02em;
@@ -7,16 +7,18 @@
   font-family: "Gilroy", sans-serif;
   margin: 0;
 }
-.collection{
+
+.collection {
   color: #3350E9;
 }
-.second-text-h{
-  width: 335px;
+
+.second-text-h {
   font-family: "Gilroy", sans-serif;
   margin-top: 20px;
   margin-bottom: 0;
 }
-.team-hero{
+
+.team-hero {
   margin-top: 28px;
   display: flex;
   align-items: flex-end;
@@ -25,29 +27,34 @@
   margin-right: auto;
   margin-left: auto;
 }
-.images-hero{
+
+.images-hero {
   position: relative;
   width: 108px;
   height: 44px;
 }
-.victoria{
+
+.victoria {
   position: absolute;
   border-radius: 100%;
   width: 44px;
 }
-.john{
+
+.john {
   position: absolute;
   border-radius: 100%;
   left: 32px;
   width: 44px;
 }
-.anastasia{
+
+.anastasia {
   position: absolute;
   border-radius: 100%;
   left: 64px;
   width: 44px;
 }
-.scroll-hero{
+
+.scroll-hero {
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -55,100 +62,127 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0C0C0C;
+  white-space: nowrap;
 }
-.pictures-hero{
+
+.pictures-hero {
   position: relative;
   overflow: hidden;
   margin-top: 28px;
 }
-img{
+
+img {
   margin: 0 auto;
 }
-.hero{
+
+.hero {
   padding-top: 60px;
 }
+
+@media (min-width:375px) {
+  .second-text-h {
+    width: 335px;
+  }
+}
+
 @media (min-width:768px) {
-  .hero{
+  .hero {
     padding-top: 80px;
   }
-  .hero-container{
+
+  .hero-container {
     margin: 0 auto;
     min-width: 768px;
   }
-  .title-hero{
+
+  .title-hero {
     min-width: 704px;
     display: flex;
     gap: 11px;
   }
-  .first-text-h{
+
+  .first-text-h {
     font-weight: 600;
     font-size: 70px;
     line-height: 86%;
   }
-  .second-text-h{
+
+  .second-text-h {
     font-size: 16px;
     line-height: 125%;
     width: 480px;
   }
-  .team-hero{
+
+  .team-hero {
     display: flex;
     position: relative;
     margin-top: 0;
     align-items: stretch;
     height: 260px;
   }
-  .images-hero{
+
+  .images-hero {
     position: relative;
     width: 136px;
     height: 56px;
   }
-  .victoria{
+
+  .victoria {
     position: absolute;
     width: 56px;
   }
-  .john{
+
+  .john {
     position: absolute;
     left: 41px;
     width: 56px;
   }
-  .anastasia{
+
+  .anastasia {
     position: absolute;
     left: 80px;
     width: 56px;
   }
-  .scroll-hero{
+
+  .scroll-hero {
     font-size: 20px;
     line-height: 100%;
     position: absolute;
     left: 34px;
     top: 240px;
   }
-  .pictures-hero{
+
+  .pictures-hero {
     margin-top: 40px;
   }
 }
+
 @media (min-width:1280px) {
-  .hero{
-    padding-top: 80px;
-  }
-  .hero-container{
+
+  .hero-container {
     padding-top: 0;
   }
-  .first-text-h{
+
+  .first-text-h {
     font-weight: 600;
     font-size: 72px;
     line-height: 87%;
   }
-  .title-hero{
+
+  .title-hero {
     justify-content: space-between;
   }
-  .text-hero{
+
+  .text-hero {
     width: 597px;
+    margin-bottom: 40px;
   }
-  .team-hero{
+
+  .team-hero {
     margin: 0;
   }
-  .pictures-hero{
+
+  .pictures-hero {
     margin-top: 18px;
   }
 }
