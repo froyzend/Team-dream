@@ -1,12 +1,13 @@
-.about-section {
+/* .about-section {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+} */
 
 .about-container {
-    background-color: #f3f3f3;
+max-width: 335px;
     border-radius: 30px;
+
     /*
     width: 335px;*/
     background: #f3f3f3;
@@ -52,10 +53,10 @@
 
 @media screen and (min-width: 768px) {
     .about-container {
-        width: 100%;
+        max-width: 704px;
         padding: 80px 60px;
         border-radius: 50px;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
 
     .about-title {
@@ -81,8 +82,10 @@
 
     .about-container {
         border-radius: 50px;
+
         width: 60%;
         margin-bottom: 0;
+
     }
 
 

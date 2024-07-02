@@ -1,6 +1,6 @@
 .wrap {
     background-image:
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url(/img/advertisement/adv-mobile.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -8,14 +8,14 @@
     background-color: #0c0c0c;
     border-radius: 30px;
     padding: 60px 28px;
-}
+ }
 
 @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
     .wrap {
         background-image:
-            linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            linear-gradient(to bottom rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
             url(/img/advertisement/adv-mobile2x.jpg);
     }
 }

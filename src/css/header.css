@@ -82,6 +82,11 @@ button {
 
 .header {
     display: block;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fbfbfb;
+    z-index: 2;
 }
 
 .social-icon {
@@ -157,7 +162,7 @@ button {
     opacity: 0;
     background-color: transparent;
     pointer-events: none;
-    transition: opacity .25s cubic-bezier(.4, 0, .2, 1), visibility .25s cubic-bezier(.4, 0, .2, 1);
+    transition: opacity .25s cubic-bezier(.4, 0, .2, 1), visibility .5s cubic-bezier(.4, 0, .2, 1);
     display: flex;
     justify-content: center;
     align-items: center;
