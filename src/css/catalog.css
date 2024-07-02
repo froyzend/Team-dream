@@ -3,14 +3,13 @@
   padding-left: 20px;
   margin-right: auto;
   margin-bottom: 24px;
-
 }
 
 .list {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
-  gap: 20px
+  gap: 20px;
 }
 
 .name-list {
@@ -18,31 +17,24 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 100%;
- 
 }
 
-.clock {
+.hidden {
   display: none;
 }
 
 .text-catalog {
-
-  display: flex;
-  flex-direction: column;
-  gap:8px;
-  padding-left: 28px;
-  padding-top: 10px;
-  padding-right: 28px;
- padding-bottom: 24px;
+  padding: 24px 28px;
 }
 
-.text-name{
-  
-  color :#0c0c0c;
+.text-name {
+  color: #0c0c0c;
+  margin-top: 10px;
 }
 
 .price-text {
   color: rgba(12, 12, 12, 0.5);
+  margin-top: 8px;
 }
 
 .button-catalog {
@@ -69,7 +61,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .title-catalog {
     font-size: 48px;
     line-height: 92%;
@@ -84,65 +75,52 @@
 
   .name-list {
     width: calc((100% - 16px) / 2);
-
   }
 
-  .text-name-ov-g {
-    gap: 8px;
-    width: 87%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 
-  
-   
-
-  }
 
   .text-name-ov {
     width: 86%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
- 
-
+    margin-top: 10px;
   }
 
-  .clock {
+  .hidden {
     display: flex;
-    flex-direction: column;
-  
+    ;
   }
 
   .button-catalog {
     display: none;
   }
+
+  .text-catalog {
+    padding: 24px 32px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-
   .list {
     gap: 32px 23px;
   }
 
   .name-list {
     width: calc((100% - 48px) / 3);
-
   }
-    .text-name-ov-g {
-      width: 93%;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  
-    .text-name-ov {
-      width: 93%;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  
-}
 
+  .text-name-ov-g {
+    width: 93%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .text-name-ov {
+    width: 93%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
