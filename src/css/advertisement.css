@@ -67,7 +67,7 @@ screen and (min-resolution: 2dppx) {
 
 .advertisement-link:hover,
 .advertisement-link:focus {
-    background: #fbfbfb;
+    background-color: #fbfbfb;
     color: #0c0c0c;
 }
 
