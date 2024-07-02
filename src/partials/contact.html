@@ -1,47 +1,64 @@
-<section class="total" id="contact">
+<section class="total padding" id="contact">
   <div class="container container-contact">
     <h2 class="subject">Contact Us</h2>
     <div class="container-form">
       <form class="class-form">
-        <p class="note">
+        <p class="note note-p">
           Please use the form below to contact us. Enter your name, email,
           phone, and message and we'll get back to you shortly.
         </p>
-        <label for="user-name" class="label-form">Name</label>
-        <input
-          type="text"
-          class="input-form"
-          id="user-name"
-          name="username"
-          placeholder="Name"
-        />
-        <label for="email" class="label-form">Email</label>
-        <input
-          type="email"
-          class="input-form"
-          name="email"
-          id="email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          placeholder="Email"
-        />
-        <label for="tel" class="label-form">Tel</label>
-        <input
-          type="tel"
-          class="input-form"
-          name="tel"
-          id="tel"
-          pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-          placeholder="+380"
-        />
-        <label for="comment" class="label-form">Comment</label>
-        <textarea
-          name="comment"
-          id="comment"
-          class="textarea-form"
-          placeholder="Comment"
-        ></textarea>
-        <button type="submit" class="btn-form">Send</button>
+        <label for="user-name">
+          <input
+            aria-label="write a username here"
+            type="text"
+            class="input-form"
+            id="user-name"
+            name="username"
+            pattern="[A-Za-zА-Яа-яЁё\s]+"
+            placeholder="Name"
+            required
+        /></label>
+
+        <label for="email">
+          <input
+            aria-label="write a email here"
+            type="email"
+            class="input-form"
+            name="email"
+            id="email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            placeholder="Email"
+            required
+        /></label>
+        <label for="tel">
+          <input
+            aria-label="write a tel number here"
+            type="tel"
+            class="input-form"
+            name="tel"
+            id="tel"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            placeholder="+380"
+            required
+        /></label>
+        <label for="comment">
+          <textarea
+            aria-label="write a your comment here"
+            name="comment"
+            id="comment"
+            class="textarea-form"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+        <button
+          type="submit"
+          class="btn-form"
+          aria-label="send your information to web"
+        >
+          Send
+        </button>
       </form>
+
       <picture>
         <source
           type="image/jpg"
@@ -73,6 +90,7 @@
           class="img-form"
           width="530"
           height="556"
+          loading="lazy"
         />
       </picture>
     </div>

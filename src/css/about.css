@@ -7,6 +7,7 @@
 .about-container {
 max-width: 335px;
     border-radius: 30px;
+<<<<<<< HEAD
     background: #f3f3f3;
     padding: 40px 20px;
 
@@ -17,33 +18,49 @@ max-width: 335px;
             gap: 20px;
         
 }
+=======
+    /*
+    width: 335px;*/
+    background: #f3f3f3;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+
+}
+>>>>>>> 47f66f64c62ce8bbe71c88a4510e465445615b6c
 
 .about-title {
     color: #0c0c0c;
-margin-bottom: 28px;
+    margin-bottom: 28px;
 
 }
+
 .about-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-bottom: 40px;
 }
-.about-item {
-    width: 294px;
+
+
+.about-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    border-radius: 16px;
+    min-width: 160px;
+    height: 48px;
+    background: #3350e9;
+    border: none;
+    padding: 15px 38px;
+    transition: background-color .25s cubic-bezier(.4, 0, .2, 1);
+
 }
-.about-btn {    
-font-weight: 500;
-font-size: 14px;
-line-height: 1.29;
-text-align: center;
-color: #fbfbfb;
-border-radius: 16px;
-min-width: 160px;
-height: 48px;
-background: #3350e9;
-border: none;
-padding: 15px 38px;
+
+.about-btn:hover,
+.about-btn:focus {
+    background-color: #1F3CD4;
 }
 
 @media screen and (min-width: 768px) {
@@ -56,18 +73,15 @@ padding: 15px 38px;
 
     .about-title {
         font-weight: 600;
-font-size: 48px;
-line-height: 92%;
+        font-size: 48px;
+        line-height: 92%;
     }
-    
-    .about-item {
-      width: 584px;
-    }
+
 
     .about-text {
         font-weight: 500;
-font-size: 16px;
-line-height: 1.25;
+        font-size: 16px;
+        line-height: 1.25;
     }
 
     .about-list {
@@ -77,23 +91,19 @@ line-height: 1.25;
 
 
 @media screen and (min-width: 1280px) {
-     
-    .about-section {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
 
     .about-container {
         border-radius: 50px;
+<<<<<<< HEAD
         width: 580px;
         margin-right: 40px;
+=======
+        width: 60%;
+        margin-bottom: 0;
+>>>>>>> 47f66f64c62ce8bbe71c88a4510e465445615b6c
     }
 
-    .about-item {
-        width: 460px;
-    }
-  
+
 
     .about-list {
         margin-bottom: 60px;
@@ -102,9 +112,7 @@ line-height: 1.25;
     .desktop-container {
         display: flex;
         flex-direction: row;
+        gap: 40px;
     }
 
-
-
-   
 }

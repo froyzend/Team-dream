@@ -1,17 +1,15 @@
-
 .title-catalog {
   display: block;
   padding-left: 20px;
   margin-right: auto;
   margin-bottom: 24px;
-  
 }
 
 .list {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
-  gap: 20px
+  gap: 20px;
 }
 
 .name-list {
@@ -19,24 +17,24 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 100%;
-  padding: 24px 28px;
 }
 
-.clock {
+.hidden {
   display: none;
 }
 
 .text-catalog {
-margin-top: 10px;
+  padding: 24px 28px;
 }
 
-.text-name{
-  margin-bottom: 8px;
-  color :#0c0c0c;
+.text-name {
+  color: #0c0c0c;
+  margin-top: 10px;
 }
 
 .price-text {
   color: rgba(12, 12, 12, 0.5);
+  margin-top: 8px;
 }
 
 .button-catalog {
@@ -54,7 +52,7 @@ margin-top: 10px;
   padding: 15px 44px;
   border: none;
   text-align: center;
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-catalog:hover,
@@ -63,7 +61,6 @@ margin-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  
   .title-catalog {
     font-size: 48px;
     line-height: 92%;
@@ -73,11 +70,44 @@ margin-top: 10px;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 32px 16px;
+    margin-bottom: 0;
   }
 
   .name-list {
-     width: calc((100% - 16px) / 2);
-     
+    width: calc((100% - 16px) / 2);
+  }
+
+
+
+  .text-name-ov {
+    width: 86%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+  }
+
+  .hidden {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-catalog {
+    display: none;
+  }
+
+  .text-catalog {
+    padding: 24px 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .list {
+    gap: 32px 23px;
+  }
+
+  .name-list {
+    width: calc((100% - 48px) / 3);
   }
 
   .text-name-ov-g {
@@ -85,55 +115,12 @@ margin-top: 10px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: 10px;
-    margin-bottom:  8px;
-   
   }
-   
+
   .text-name-ov {
-    width: 72%;
+    width: 93%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: 10px;
-    margin-bottom: 8px;
-    
   }
-
-  .clock {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-
-  .button-catalog {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1280px) {
- 
-  .list {
-    gap: 32px 23px;
-  }
-
-  .name-list {
-    width: calc((100% - 48px) / 3);
-   
-  }
-    .text-name-ov-g {
-      width: 97%;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  
-    .text-name-ov {
-      width: 80%;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  
 }
