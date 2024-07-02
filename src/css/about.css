@@ -7,18 +7,7 @@
 .about-container {
 max-width: 335px;
     border-radius: 30px;
-<<<<<<< HEAD
-    background: #f3f3f3;
-    padding: 40px 20px;
 
-}
-.desktop-container{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        
-}
-=======
     /*
     width: 335px;*/
     background: #f3f3f3;
@@ -26,7 +15,6 @@ max-width: 335px;
     margin-bottom: 20px;
 
 }
->>>>>>> 47f66f64c62ce8bbe71c88a4510e465445615b6c
 
 .about-title {
     color: #0c0c0c;
@@ -94,13 +82,10 @@ max-width: 335px;
 
     .about-container {
         border-radius: 50px;
-<<<<<<< HEAD
-        width: 580px;
-        margin-right: 40px;
-=======
+
         width: 60%;
         margin-bottom: 0;
->>>>>>> 47f66f64c62ce8bbe71c88a4510e465445615b6c
+
     }
 
 
