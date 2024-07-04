@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.subject {
+.contact-header {
     margin-bottom: 24px;
     color: #0c0c0c;
 }
@@ -100,10 +100,11 @@ textarea::placeholder {
     background-color: #1f3cd4;
 }
 
+/*
 .img-form {
     height: 100%;
     width: 100%;
-}
+}*/
 
 @media screen and (min-width: 768px) {
     .padding {

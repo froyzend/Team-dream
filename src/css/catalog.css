@@ -60,6 +60,15 @@
   background-color: #1F3CD4;
 }
 
+.text-name-ov {
+  margin-top: 10px;
+  width: 86%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
 @media screen and (min-width: 768px) {
   .title-catalog {
     font-size: 48px;
